@@ -1,4 +1,5 @@
 env
 *.csv
+*.parquet
 *data
 *.ipynb_checkpoints
