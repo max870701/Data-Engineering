@@ -1,9 +1,8 @@
 version: '3.8'
 
 services:
-  postgres:
+  pgdatabase:
     image: postgres:13
-    restart: always
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
@@ -15,11 +14,10 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4
-    restart: always
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: root
     ports:
       - "8080:80"
     depends_on:
-      - postgres
+      - pgdatabase

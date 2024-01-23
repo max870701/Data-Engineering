@@ -1,3 +1,38 @@
+# Containerization
+## Docker Compose
+- Build ```docker-compose.yml``` file
+```bash
+docker-compose build --no-cache
+```
+- Run ```docker-compose.yml``` file
+```bash
+docker-compose up -d
+```
+- Lookup docker network
+```bash
+docker network ls
+```
+## Docker
+- Build ```ingest_data.py``` image as ```taxi_data_ingest:latest```
+```bash
+docker build -t taxi_data_ingest:latest .
+```
+- Run ```ingest_data.py``` Container
+```bash
+URL="<source link | file path>"
+```
+```bash
+docker run -it \
+--network=week1_default \
+taxi_data_ingest:latest \
+  --user=root \
+  --password=root \
+  --host=pgdatabase \
+  --port=5432 \
+  --db=ny_taxi \
+  --table_name=yellow_test \
+  --source=${URL}
+```
 # Homework 1
 ## Question 1. Docker tags
 ```bash
