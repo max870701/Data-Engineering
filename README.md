@@ -21,3 +21,9 @@ Using Terraform to operate Google Cloud Platform (GCP) resources.
 - Export Cleaned Data to PostgreSQL in our Docker Container
 - Export Cleaned Data to Google BigQuery
 - Export Cleaned Data to Google Cloud Storage by partitioning the data by month
+
+## [Week3: Data Warehouse with BigQuery](./Week3/README.md)
+- Create a Data Warehouse in Google BigQuery
+- Create External Table from Google Cloud Storage
+- Create Non-partitioned and Partitioned Tables from External Table
+- Query Data from Non-partitioned and Partitioned Tables
