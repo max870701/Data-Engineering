@@ -1,0 +1,1 @@
+SELECT COUNT(VendorID) FROM `amazing-modem-411901.nyctaxi.external_green_tripdata`;
