@@ -1,4 +1,8 @@
 # Data Engineering
+## Overview
+
+<img src="images/LearningMap.jpg"/>
+
 ## [Week1: Pre-Requisites (Docker, Terraform, SQL)](./Week1/README.md)
 ### Docker + PostgreSQL
 Using Docker to run a PostgreSQL database locally.
