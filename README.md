@@ -10,7 +10,7 @@ Using Docker to run a PostgreSQL database locally.
 Using Terraform to operate Google Cloud Platform (GCP) resources.
 
 ## [Week2: Data ETL(Extract, Transform, Load) with Mage](./Week2/HW/README.md)
-### [Mage Workflow Framework](./Week2/mage-zoomcamp/README.md)
+### [Mage Workflow Orchestration Tool](./Week2/mage-zoomcamp/README.md)
 ### Extract Data From Various Sources
 - Extract the last quarter of 2020's NYC Green Taxi Data from [DataTalksClub](https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/green)
 ### Transform Data For Consistency
@@ -31,3 +31,10 @@ Using Terraform to operate Google Cloud Platform (GCP) resources.
 - Create External Table from Google Cloud Storage
 - Create Non-partitioned and Partitioned Tables from External Table
 - Query Data from Non-partitioned and Partitioned Tables
+
+## [Workshop 1: Data Ingestion with dlt](./Workshop1/README.md)
+### [dlt Pipeline Building Tool](https://dlthub.com/docs/build-a-pipeline-tutorial)
+- Create a generator to extract data from a data source
+- Create a pipeline to ingest data into an in-memory database (e.g. DuckDB) or a data warehouse (e.g. BigQuery)
+- Replace or merge data in the in-memory database or data warehouse
+- Query the data in the in-memory database or data warehouse
