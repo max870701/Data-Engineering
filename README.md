@@ -38,3 +38,15 @@ Using Terraform to operate Google Cloud Platform (GCP) resources.
 - Create a pipeline to ingest data into an in-memory database (e.g. DuckDB) or a data warehouse (e.g. BigQuery)
 - Replace or merge data in the in-memory database or data warehouse
 - Query the data in the in-memory database or data warehouse
+
+
+## [Week4: Analytics Engineering with Dbt Cloud and BigQuery](./Week4/README.md)
+- Create a Dbt project with BigQuery as a source and target.
+- Build up staging models from BigQuery tables.
+- Compose a fact table from staging models and load it into BigQuery.
+- Create a dashboard in Data Studio (Looker) with the fact table.
+
+## [Week5: Batch Processing with Spark on GCP VM Instance](./Week5/README.md)
+- Setup a GCP VM Instance
+- Install Anaconda, Java and Spark, setup PySpark
+- Utilize Jupyter Notebook to execute batch processing tasks using PySpark.
