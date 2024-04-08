@@ -1,0 +1,4 @@
+SELECT *
+FROM zones_pickup_count
+ORDER BY 2 DESC
+LIMIT 10
